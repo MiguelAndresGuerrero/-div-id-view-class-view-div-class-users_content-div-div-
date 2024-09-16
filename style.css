@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Fuente;
+    src: url(./storage/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: Fuente;
+}
+
+.text-center{
+    display: flex;
+    background-color: #3b50d3;
+    color: white;
+    position: absolute;
+    width: 99vw;
+    height: 30vh;
+    margin-top: -1%;
+    margin-left: -1%;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+}
+
+.text-center p{
+    color: white;
+    position: absolute;
+    display: flex;
+    margin-top: 6%;
+}
+
+#Search{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 68%;
+    height: 2%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#Search{
+    border-radius: 20px;
+    border-color: #0022ff;
+    width: 80%;
+    height: 5%;
+}
+
+.view{
+    display: flex;
+    position: absolute;
+    top: 12rem;
+    width: 96vw;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+.users_content{
+    display: flex;
+    width: 98%;
+    height: auto;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+    width: 7rem;
+    border: 2px solid blue;
+}
+
+img:hover{
+    transform: scale(1.5);
+    box-shadow: 4px 4px 80px 4px;
+    transition: 0.8s;
+}
+
+.blue{
+    width: 100vw;
+    height: 35vh;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+}
+
+.table{
+    display: flex;
+    margin-top: -7rem;
+    margin-left: 20rem;
+    text-align: left;
+    font-size: 20px;
+}
+
+.list-group-item{
+    list-style: none;
+    width: 90vw;
+    height: 45vh;
+    justify-content: center;
+}
+
+.blue2{
+    width: 90vw;
+    height: 20vh;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    margin-bottom:2rem;
+}
